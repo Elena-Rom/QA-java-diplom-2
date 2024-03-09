@@ -1,16 +1,11 @@
 package user;
 
-import com.github.javafaker.Faker;
-import com.github.javafaker.service.FakeValuesService;
-import com.github.javafaker.service.RandomService;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import models.user.UserCreate;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Locale;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static user.UserGenerator.randomUser;

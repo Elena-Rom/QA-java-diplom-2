@@ -3,14 +3,10 @@ package user;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import models.user.UserCreate;
-import models.user.UserLogin;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.nio.charset.StandardCharsets;
-
-import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static user.UserGenerator.randomUser;
 import static utils.Utils.randomString;

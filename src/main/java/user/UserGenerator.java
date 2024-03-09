@@ -1,6 +1,7 @@
 package user;
 
 import models.user.UserCreate;
+
 import static utils.Utils.randomString;
 
 public class UserGenerator {

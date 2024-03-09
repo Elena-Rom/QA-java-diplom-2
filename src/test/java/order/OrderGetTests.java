@@ -7,6 +7,7 @@ import models.order.Ingredients;
 import models.order.IngredientsResponsed;
 import models.order.OrderData;
 import models.user.UserCreate;
+import orders.OrderClient;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
